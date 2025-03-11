@@ -13,7 +13,7 @@ function Filter() {
   const total = data ? Math.ceil(data.total / 10) : 0;
   return (
     <div>
-      <h1 className=" font-semibold text-4xl text-center">Sorted Products</h1>
+      <h1 className=" font-semibold text-4xl text-center my-10">Sorted Products</h1>
       <Products
         error={error}
         isLoading={isLoading}
